@@ -2,7 +2,7 @@
 
 // A list of Apple OS ARM system calls can be found here: https://theapplewiki.com/wiki/Kernel_Syscalls
 
-// Alternatively you could use _start, but _main resembles the `main` func in C or C##
+// Alternatively you could use _start, but _main resembles the `main` func in C or C++
 .global _main
 
 // The 2 in the following libe is necessary, if code is run on Apple Silicon,
